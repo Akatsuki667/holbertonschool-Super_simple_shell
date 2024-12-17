@@ -13,9 +13,9 @@ printf("$ "); /* affichage prompt */
 if (getline(&line, &len, stdin) == - 1) /* vérification lecture a échoué */
 /* lire ligne d'entrée à partir de stdin(clavier) */
 {
-printf("EOF détecté, exit\n"); /* affichage messeage erreur */
+printf("EOF detected, exiting\n"); /* affichage messeage erreur */
 free(line); /* libération mémoire alloué par getline() */
-return 0;
+return 1;
 }
 printf("%s\n", line); /* sinon affiche entrée utilisateur */
 free(line); /* libération mémoire alloué par getline()*/

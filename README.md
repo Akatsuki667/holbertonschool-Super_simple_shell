@@ -13,3 +13,6 @@ Write a program that prints all the arguments, without using ac.
 
 ### read_line.c
 Write a program that prints "$ ", wait for the user to enter a command, prints it on the next line.
+
+### command_line_to_av.c
+Write a function that splits a string and returns an array of each word of the string.
