@@ -19,3 +19,6 @@ Write a function that splits a string and returns an array of each word of the s
 
 ### fork_wait.c
 Write a program that executes the command ls -l /tmp in 5 different child processes. Each child should be created by the same process (the father). Wait for a child to exit before creating a new child.
+
+### super_simple_shell
+write a first version of a super simple shell that can run commands with their full path, without any argument.
