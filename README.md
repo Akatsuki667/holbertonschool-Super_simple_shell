@@ -22,3 +22,16 @@ Write a program that executes the command ls -l /tmp in 5 different child proces
 
 ### super_simple_shell
 write a first version of a super simple shell that can run commands with their full path, without any argument.
+
+### file_information
+Write a program that looks for files in the current PATH.
+
+### printenv.c
+Write a program that prints the environment using the global variable environ.
+
+### ad_env_environ
+Write a program that prints the address of env (the third parameter of the main function) and environ (the global variable).
+
+### _getenv.c
+Write a function that gets an environment variable.
+

@@ -48,10 +48,11 @@ int main()
 			if (execve(array[0], array, NULL) == -1)
 			/* vérification exécution valide */
 				perror("Error:");
-			free(line);
 		}
 		else /* Sinon processus parent */
+		{
 			wait(&status); /* instruction pour ce dernier */
+		}
 	}	
 	free(line);
 	return (0);
