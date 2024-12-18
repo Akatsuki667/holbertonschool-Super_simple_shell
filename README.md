@@ -35,3 +35,6 @@ Write a program that prints the address of env (the third parameter of the main 
 ### _getenv.c
 Write a function that gets an environment variable.
 
+### _print_path_directories.c
+Write a function that prints each directory contained in the the environment variable PATH, one directory per line.
+
