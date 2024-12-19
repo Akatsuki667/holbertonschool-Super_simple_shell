@@ -38,3 +38,8 @@ Write a function that gets an environment variable.
 ### _print_path_directories.c
 Write a function that prints each directory contained in the the environment variable PATH, one directory per line.
 
+
+## Contributors
+This project was produced as part of the Holberton School program by :
+- [Mitchell Julian](https://github.com/jmitchell35)
+- [Teyant Alexandre](https://github.com/Akatsuki667)

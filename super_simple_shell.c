@@ -58,6 +58,7 @@ int main()
 		{
 			wait(&status); /* instruction pour ce dernier */
 		}
+		i = 0;
 	}	
 	free(line); /* libération mémoire alloué à line par getline() */
 	return (0);
